@@ -5,9 +5,21 @@ namespace App\model\Entity;
 class Organization
 {
     public $id = 1;
-    public $name = "Joao Gabriel";
+    public $name = "MVC";
 
-    public $site = "https://joaogabrielsantosfranco.github.io/";
+    public $site = "<a href='https://joaogabrielsantosfranco.github.io/'>https://joaogabrielsantosfranco.github.io/</a>";
 
-    public $description = 'Integer at aliquam dui. Mauris posuere, mi sed tempor laoreet, elit sem tempor nunc, vitae aliquam urna nibh vitae leo. Duis at leo tristique, commodo tortor vel, semper purus. Praesent ac neque non purus volutpat sagittis id non leo. Pellentesque laoreet dui in enim tempus euismod. Etiam fermentum, risus eget rutrum luctus, neque enim gravida odio, imperdiet viverra odio tortor vel velit. Phasellus quis tortor placerat, molestie dolor id, pretium eros. Fusce interdum tincidunt mollis. Nullam libero nisi, sagittis sit amet elementum vulputate, blandit eu mi';
+    public $description = '&nbsp O MVC é uma abordagem de desenvolvimento de software que divide um aplicativo em três componentes principais: Model, View e Controller. Cada um desses componentes desempenha um papel importante no aplicativo e é responsável por uma parte específica da funcionalidade.
+    <br/>
+    <br/>    
+    &nbsp O Model é responsável por gerenciar os dados do aplicativo. Ele é responsável por interagir com o banco de dados e fornecer informações para o Controller e a View.
+    <br/>
+    <br/>
+    &nbsp
+        A View é responsável por apresentar os dados ao usuário. Ela é responsável pela interface do usuário e pela interação com o usuário.
+    <br/>
+    <br/>
+    &nbsp
+        Controller é responsável por gerenciar a lógica do aplicativo. Ele recebe solicitações do usuário, interage com o Model para obter os dados necessários e, em seguida, passa esses dados para a View para exibição.
+';
 }
