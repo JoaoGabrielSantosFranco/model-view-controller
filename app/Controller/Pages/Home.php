@@ -18,11 +18,9 @@ class Home extends Page
 
 
         $content = View::render('pages/home', [
-            'name' => "$obOrganization->name",
-            'description' => $obOrganization->description,
-            'site' => $obOrganization->site
+            'name' => "$obOrganization->name"
         ]);
 
-        return parent::getPage('WEV - Canal - Home ', $content);
+        return parent::getPage('HOME', $content);
     }
 } 
